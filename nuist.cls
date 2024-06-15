@@ -12,15 +12,15 @@
 \pagestyle{plain}
 
 % 设置各种字体
-\setCJKmainfont[AutoFakeBold,AutoFakeSlant]{SimSun} % 设置宋体
+\setCJKmainfont[Path=fonts/,AutoFakeBold,AutoFakeSlant]{SimSun.ttf} % 设置宋体
 
-\setCJKfamilyfont{localsimsun}[AutoFakeBold,AutoFakeSlant]{SimSun}
+\setCJKfamilyfont{localsimsun}[Path=fonts/,AutoFakeBold,AutoFakeSlant]{SimSun.ttf}
 \renewcommand{\songti}{\CJKfamily{localsimsun}}
 
-\setCJKfamilyfont{localheiti}[AutoFakeBold,AutoFakeSlant]{SimHei}
+\setCJKfamilyfont{localheiti}[Path=fonts/,AutoFakeBold,AutoFakeSlant]{SimHei.ttf}
 \renewcommand{\heiti}{\CJKfamily{localheiti}}
 
-\setCJKfamilyfont{localkaishu}[AutoFakeBold,AutoFakeSlant]{[simkai.ttf]}
+\setCJKfamilyfont{localkaishu}[Path=fonts/,AutoFakeBold,AutoFakeSlant]{SimKai.ttf}
 \renewcommand{\kaishu}{\CJKfamily{localkaishu}}
 
 \setmainfont{Times New Roman}
