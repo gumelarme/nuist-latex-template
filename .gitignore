@@ -5,6 +5,16 @@
 *.out
 *.synctex*
 *.toc
-*.pdf
 
 ~$*
+
+#  Ouput file 
+*.pdf
+
+# Emacs
+.auctex-auto/
+
+# Intermediate files
+*.xdv
+*.fls
+*.fdb_latexmk

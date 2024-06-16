@@ -165,7 +165,7 @@
             \includegraphics[scale=1]{nuist_logo/nuist.pdf}
 
             \vspace*{1cm}
-            \heiti\zihao{-1}本科生毕业论文(设计)\\
+            \heiti\zihao{-1}《自然语言处理》课程论文\\
 
             \vspace*{6mm}
             \includegraphics[scale=1]{nuist_logo/xiaohui.jpg}
